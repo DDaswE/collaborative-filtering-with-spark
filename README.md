@@ -2,6 +2,30 @@
 
 Spark ALS recommendation workflow with dataset profiling, split-ratio testing, metric evaluation, hyperparameter tuning, and personalized recommendations.
 
+## Preview
+
+<table>
+  <tr>
+    <td width="50%">
+      <img src="./rating_distribution.png" alt="Rating distribution chart" width="100%">
+    </td>
+    <td width="50%">
+      <img src="./split_ratio_comparison.png" alt="Train test split comparison" width="100%">
+    </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td width="50%">
+      <img src="./hyperparam_heatmap.png" alt="Hyperparameter heatmap" width="100%">
+    </td>
+    <td width="50%">
+      <img src="./recommendation_comparison.png" alt="Recommendation comparison chart" width="100%">
+    </td>
+  </tr>
+</table>
+
 ## Project summary
 
 This project builds a Spark-based collaborative filtering pipeline for movie ratings. It starts with data profiling, then evaluates model behavior under different train/test splits, compares regression and classification-style metrics, tunes ALS hyperparameters, and produces personalized recommendations for selected users.
@@ -48,4 +72,3 @@ The assignment asks how well Spark ALS can model user preferences from sparse ra
 ## Notes
 
 The scripts read `movies.csv` from the repository root so the project is easy to run after cloning or copying.
-
