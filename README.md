@@ -32,7 +32,7 @@ This project builds a Spark-based collaborative filtering pipeline for movie rat
 
 ## Problem
 
-The assignment asks how well Spark ALS can model user preferences from sparse rating data and how model quality changes under different evaluation choices.
+This project asks how well Spark ALS can model user preferences from sparse rating data and how model quality changes under different evaluation choices.
 
 ## Data
 
